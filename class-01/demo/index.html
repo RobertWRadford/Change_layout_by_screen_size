@@ -2,28 +2,35 @@
 <html>
   <head>
     <!-- meta info & dependency management -->
+    <meta name='viewport' content='width=device-width, initial-scale = 1, minimum-scale = 1'/>
     <title>RWD Demo</title>
     <link rel="stylesheet" href="/styles/styles.css">
+    <link rel='stylesheet' media='screen and (max-width: 767px)' href='/styles/small.css' />
+    <link rel='stylesheet' media='screen and (min-width: 768px)' href='/styles/big.css' />
   </head>
   <body>
     <!-- header, main, and footer are layout/structural components -->
     <header>
       <!-- h1, p are generic single elements - base styles apply here -->
-      <h1>Cool App</h1>
-      <h3>Subheading</h3>
+      <h1 id='headerH'>a</h1>
     </header>
 
     <main>
       <!-- section is meant for specific content within the layout structure, or "module" -->
-      <section>
-        <div>Content 1</div>
-        <div>Content 2</div>
-        <div>Content 3</div>
+      <p class='largeText'>b</p>
+      <p id='cEl' class='smallText'>c</p>
+      <p id='dEl' class='smallText'>d</p>
+
+      <section id='divSection'>
+        <div id='eEl' class='innerDiv'>e</div>
+        <div id='fEl' class='innerDiv'>f</div>
+        <div id='gEl' class='innerDiv'>g</div>
+        <div id='hEl' class='innerDiv'>h</div>
       </section>
     </main>
 
     <footer>
-      <p>&copy; Copyright Cool Demo 2k20</p>
+      <p id='footerP'>i</p>
     </footer>
   </body>
 </html>

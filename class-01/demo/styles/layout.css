@@ -1,23 +1,45 @@
+/* media queries are used for conditional modification */
+section {
+  background: red;
+}
+
+body {
+  width: 480px;
+  background: lightgrey;
+  height: 1055px;
+}
+body > *, body > * > * {
+  outline: solid 2px darkgrey;
+}
 header {
   background: black;
   color: white;
+  width:480px;
+  height: 75px;
 }
-
+.largeText {
+  width: 480px;
+  height: 150px;
+  display: inline-block;
+}
+.smallText {
+  width: 480px;
+  height: 125px;
+  display: inline-block;
+}
+#divSection {
+  width: 480px;
+  height:500px;
+}
+.innerDiv {
+  width: 240px;
+  height: 250px;
+  display: inline-block;
+  margin: 0px;
+  border:;
+}
 footer {
+  width: 480px;
+  height: 80px;
   background: grey;
-}
-
-/* media queries are used for conditional modification */
-
-@media (min-width: 960px) {
-  section {
-    background: red;
-  }
-
-  div {
-    width: 33.33%;
-    float: left;
-    background: black;
-    height: 5vw;
-  }
 }
