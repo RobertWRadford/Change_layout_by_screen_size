@@ -1,5 +1,5 @@
-@import '/styles/smallLayouts.css';
-@import '/styles/smallModulations.css';
+@import 'styles/smallLayouts.css';
+@import 'styles/smallModulations.css';
 
 body {
   display: grid;
