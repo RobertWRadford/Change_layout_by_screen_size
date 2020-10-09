@@ -1,5 +1,5 @@
-@import 'styles/bigLayouts.css';
-@import 'styles/bigModulations.css';
+@import '/bigLayouts.css';
+@import '/bigModulations.css';
 
 body {
   display: grid;
