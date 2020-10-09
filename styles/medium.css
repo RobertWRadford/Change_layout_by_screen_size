@@ -1,5 +1,5 @@
-@import '/mediumLayouts.css';
-@import '/mediumModulations.css';
+@import 'mediumLayouts.css';
+@import 'mediumModulations.css';
 
 body {
   display: grid;
